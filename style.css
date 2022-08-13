@@ -68,6 +68,10 @@ button {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
+button:hover {
+   border: 2px solid #273549;
+}
+
 .btn {
   margin-top: 40px;
 }
@@ -153,28 +157,18 @@ button {
   }
 
   #input {
-    height: 73px;
-    width: 90px;
-    border: 2px solid #b295ff;
-    border-radius: 5px;
-    margin-top: 30px;
-  }
-
-  .btn {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #3d3d3d;
-    background: #ffffff;
-    padding: 5px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    margin: 40px;
-  }
+   height: 73px;
+   width: 100px;
+   background: #6943ff;
+   border: 2px solid #b295ff;
+   border-radius: 5px;
+   margin-top: 40px;
+   text-align: center;
+   font-weight: 800;
+   font-size: 30px;
+   line-height: 15px;
+   color: #ffffff;
+ }
 
   .group-section {
     padding: 10px 0;
