@@ -12,8 +12,11 @@
       <section class="top-section">
         <div>
           <h3 class="heading">Metric/Imperial Unit Conversion</h3>
-          <div class="empty-div"></div>
+
+          <input id="input" type="text" placeholder="" />
+         
           <button class="btn">Convert</button>
+          <button class="btn-2">Reset</button>
         </div>
       </section>
 
@@ -21,17 +24,25 @@
       <section class="group-section">
         <div class="units-container">
           <p class="unit">Length (Meter/Feet)</p>
-          <p class="converted-unit">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+          <p id="length-el" class="converted-unit">
+            0 meters = 0.000 feet | 0 feet = 0.000 meters
+          </p>
         </div>
         <div class="units-container">
           <p class="unit">Volume (Liters/Gallons)</p>
-          <p class="converted-unit">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+          <p id="volume-el" class="converted-unit">
+            0 litres = 0.000 galons | 0 galons = 0.000 litres
+          </p>
         </div>
         <div class="units-container">
           <p class="unit">Mass (Kilograms/Pounds)</p>
-          <p class="converted-unit">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+          <p id="mass-el" class="converted-unit">
+            0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
+          </p>
         </div>
       </section>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
