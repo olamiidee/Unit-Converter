@@ -69,11 +69,12 @@ button {
 }
 
 .btn {
-  margin: 40px;
+  margin-top: 40px;
 }
 
 .btn-2 {
   padding: 5px 40px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
