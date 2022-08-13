@@ -69,7 +69,7 @@ button {
 }
 
 button:hover {
-   border: 2px solid #273549;
+  border: 2px solid #273549;
 }
 
 .btn {
@@ -115,6 +115,7 @@ button:hover {
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+  width: 90%;
 }
 
 /* Media Queries */
@@ -157,18 +158,18 @@ button:hover {
   }
 
   #input {
-   height: 73px;
-   width: 100px;
-   background: #6943ff;
-   border: 2px solid #b295ff;
-   border-radius: 5px;
-   margin-top: 40px;
-   text-align: center;
-   font-weight: 800;
-   font-size: 30px;
-   line-height: 15px;
-   color: #ffffff;
- }
+    height: 73px;
+    width: 100px;
+    background: #6943ff;
+    border: 2px solid #b295ff;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 15px;
+    color: #ffffff;
+  }
 
   .group-section {
     padding: 10px 0;
